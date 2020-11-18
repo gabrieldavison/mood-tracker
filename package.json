@@ -50,6 +50,7 @@
     "cors": "^2.8.5",
     "feathers-nedb": "^5.1.0",
     "helmet": "^3.23.3",
+    "moment": "^2.27.0",
     "nedb": "^1.8.0",
     "serve-favicon": "^2.5.0",
     "winston": "^3.3.3"

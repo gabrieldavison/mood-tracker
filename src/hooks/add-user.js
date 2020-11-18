@@ -2,9 +2,9 @@
 // For more information on hooks see: http://docs.feathersjs.com/api/hooks.html
 
 // eslint-disable-next-line no-unused-vars
-module.exports = (name = 'timeStamp') => {
+module.exports = (name = 'userId') => {
   return async context => {
-    context.data[name] = new Date();
+    context.data[name] = context.params.user._id;
     return context;
   };
 };
