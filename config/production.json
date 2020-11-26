@@ -1,4 +1,4 @@
 {
-  "host": "mood-tracker-app.feathersjs.com",
+  "host": "https://intense-wildwood-87360.herokuapp.com/",
   "port": "PORT"
 }
