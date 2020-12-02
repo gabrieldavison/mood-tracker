@@ -28,5 +28,6 @@
       "passwordField": "password"
     }
   },
-  "nedb": "../data"
+  "nedb": "../data",
+  "mongodb": "mongodb+srv://admin:adminpass@cluster0.zgrkx.mongodb.net/temper"
 }

@@ -8,12 +8,10 @@ const addCalendarEvent = require('../../hooks/add-calendar-event');
 
 const addReadableTimestamp = require('../../hooks/add-readable-timestamp');
 
-const convertUserIdToObjectId = require('../../hooks/convert-user-id-to-object-id');
-
 module.exports = {
   before: {
     all: [ authenticate('jwt') ],
-    find: [convertUserIdToObjectId()],
+    find: [],
     get: [],
     create: [
       addUser('userId'),

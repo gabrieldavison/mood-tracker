@@ -1,11 +1,9 @@
 // Initializes the `log` service on path `/log`
 const { Log } = require('./log.class');
-const createModel = require('../../models/log.model');
 const hooks = require('./log.hooks');
 
 module.exports = function (app) {
   const options = {
-    Model: createModel(app),
     paginate: app.get('paginate')
   };
 
